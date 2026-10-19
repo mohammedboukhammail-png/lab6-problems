@@ -30,8 +30,7 @@ public class Shop
             keepShopping = scan.nextLine();
         }
         while (keepShopping.equals("y"));
-    }
-    System.out.println("\nFinal Shopping Cart:");
+        System.out.println("\nFinal Shopping Cart:");
         double totalPrice = 0.0;
         
         for (Item currentItem : cart) {
@@ -40,4 +39,6 @@ public class Shop
         }
         
         System.out.println("Total Price: $" + totalPrice);
+    }
+    
 }
