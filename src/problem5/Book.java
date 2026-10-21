@@ -23,7 +23,6 @@ public class Book {
         return year;
     }
 
-    @Override
     public String toString() {
         return String.format("%s by %s (%d)", title, author, year);
     }
